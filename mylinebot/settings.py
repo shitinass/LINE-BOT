@@ -25,7 +25,9 @@ SECRET_KEY = 'w-yuvkpc4dh1ocaas^j9ndu7*8l1va#0!quqdlbwxi1%9=1ec6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mylinebotxiao.herokuapp.com']
+ALLOWED_HOSTS = [
+    'mylinebotxiao.herokuapp.com',
+                 ]
 
 LINE_CHANNEL_ACCESS_TOKEN = 'C9c4VX9DlOFuJgtuADx/P9I4hy8eSSt3mUrZ815SXqwTm3PQBFBrwZhS3/m5Jk3cU3nXDNsEViK75JG+CXEoxQ4xvN9tl6RZi4nLbch0PSkIXjNAWUzbTE4uIuGbs6YGRl5dTHTc3gKSJgScLBCsswdB04t89/1O/w1cDnyilFU='
 LINE_CHANNEL_SECRET = 'e1d289299f3bfbeb6a0389232e6ac786'
