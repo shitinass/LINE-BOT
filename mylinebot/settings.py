@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'mylinebotxiao.herokuapp.com',
+   ## 'd0d2-218-166-234-154.ngrok.io'
                  ]
 
 LINE_CHANNEL_ACCESS_TOKEN = 'C9c4VX9DlOFuJgtuADx/P9I4hy8eSSt3mUrZ815SXqwTm3PQBFBrwZhS3/m5Jk3cU3nXDNsEViK75JG+CXEoxQ4xvN9tl6RZi4nLbch0PSkIXjNAWUzbTE4uIuGbs6YGRl5dTHTc3gKSJgScLBCsswdB04t89/1O/w1cDnyilFU='
