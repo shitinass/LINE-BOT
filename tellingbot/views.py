@@ -10,7 +10,7 @@ from linebot.models import * #-------------------------
 # image processing
 import matplotlib.pyplot as pl
 import pytesseract
-
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 # easyocr
 #from easyocr import Reader
 #import easyocr
@@ -35,7 +35,7 @@ import time
 
 #pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 lang = "chi_tra+eng"
-pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
+
 
 
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
