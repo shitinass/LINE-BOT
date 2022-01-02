@@ -85,7 +85,7 @@ def callback(request):
                     with open(path, 'wb') as fd:
                         for chunk in audio_content.iter_content():  #將音訊訊息存成檔案
                             fd.write(chunk)
-  
+
                     #進行語音轉文字處理
                     results=speech_to_text(path)
                     #將轉換的文字回傳給用戶 語音轉語音(未解)

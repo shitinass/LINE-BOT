@@ -6,7 +6,7 @@ from googletrans import Translator  # text translator
 
 import os
 
-AudioSegment.converter = r'C:\Users\jjopk\Desktop\AI\Django\mylinebot\static\ffmpeg\bin\ffmpeg.exe'#輸入自己的ffmpeg.exe路徑
+#AudioSegment.converter = r'C:\Users\jjopk\Desktop\AI\Django\mylinebot\static\ffmpeg\bin\ffmpeg.exe'#輸入自己的ffmpeg.exe路徑
 
 def speech_to_text(path):
     r = sr.Recognizer()
