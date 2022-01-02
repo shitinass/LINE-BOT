@@ -32,7 +32,7 @@ import sys
 import string
 import random
 import time
-pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'\app\.apt\usr\bin\tesseract'
 #pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 lang = "chi_tra+eng"
 
