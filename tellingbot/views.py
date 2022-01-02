@@ -12,8 +12,8 @@ import matplotlib.pyplot as pl
 import pytesseract
 
 # easyocr
-from easyocr import Reader
-import easyocr
+#from easyocr import Reader
+#import easyocr
 from PIL import Image,ImageDraw
 
 
