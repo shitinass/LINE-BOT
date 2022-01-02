@@ -16,7 +16,7 @@ import pytesseract
 #import easyocr 
 #from PIL import Image,ImageDraw
 
-
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 from tellingbot.mymoduel.translate import *
 from tellingbot.mymoduel.img_to_text import *
 from tellingbot.mymoduel.speech_to_text import *
