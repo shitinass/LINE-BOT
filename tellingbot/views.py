@@ -12,11 +12,11 @@ import matplotlib.pyplot as pl
 import pytesseract
 
 # easyocr
-#from easyocr import Reader
-#import easyocr 
-#from PIL import Image,ImageDraw
+from easyocr import Reader
+import easyocr
+from PIL import Image,ImageDraw
 
-pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
+
 from tellingbot.mymoduel.translate import *
 from tellingbot.mymoduel.img_to_text import *
 from tellingbot.mymoduel.speech_to_text import *
@@ -33,9 +33,9 @@ import string
 import random
 import time
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 lang = "chi_tra+eng"
-
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 
 
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
